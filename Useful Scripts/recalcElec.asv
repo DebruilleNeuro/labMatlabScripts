@@ -34,8 +34,7 @@ ERP = pop_loaderp ('filename', newerpname)
 %if n==2;
 if j==1;
     %change plotting parameters. To know your plotting parameters, plot one
-    %of your erps using the eeglab interface,in the command window the
-    %parameters should be written, you can just paste them down below to automatically plot.
+    %of your erps in 
  ERP = pop_ploterps( ERP, [1 2 3],  1:28 , 'AutoYlim', 'on', 'Axsize', [ 0.13 0.15], 'BinNum', 'on', 'Blc', 'pre', 'Box', [ 6 5], 'ChLabel',...
  'on', 'FontSizeChan',  10, 'FontSizeLeg',  12, 'FontSizeTicks',  10, 'LegPos', 'bottom', 'Linespec', {'k-' , 'r-' , 'b-'}, 'LineWidth',  1, 'Maximize',...
  'on', 'Position', [ 80.3 6.76923 106.9 31.9231], 'Style', 'Topo', 'Tag', 'ERP_figure', 'Transparency',  0, 'xscale', [ -203.0 1195.0   -200:200:1000 ],...
